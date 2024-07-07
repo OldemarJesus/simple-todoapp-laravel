@@ -5,8 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\TaskPostRequest;
 use App\Http\Requests\TaskUpdateRequest;
 use App\Models\Task;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 
 class TaskController extends Controller
 {
